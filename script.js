@@ -5,6 +5,7 @@ let randomNo= Math.floor(Math.random() * 20);
 let lines= document.getElementById("lines");
 let picbox= document.getElementById("picbox");
 
-lines.innerText= allLines[randomNo];
+// lines.innerText= allLines[randomNo];
+lines.innerText = "as a pen, I can tell you that how much he his trying to think, just to write few statements full of feelings. I don't know why he is so inefficient in accepting that he loves someone or cares for someone but you can beleive me that he does as I am in his hands most of the time and I know he can't write this much for even himself, but he is doing it for you.";
 picbox.innerHTML= `<img id='pic' src='img/${randomNo}.jpg'/>`;
 console.log(randomNo);
