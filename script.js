@@ -5,6 +5,6 @@ let randomNo= Math.floor(Math.random() * 20);
 let lines= document.getElementById("lines");
 let picbox= document.getElementById("picbox");
 
-// lines.innerText= allLines[randomNo];
+lines.innerText= allLines[randomNo];
 picbox.innerHTML= `<img id='pic' src='img/${randomNo}.jpg'/>`;
 console.log(randomNo);
